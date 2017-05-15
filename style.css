@@ -1,0 +1,209 @@
+.top, .upper-part, .lower-part, .bottom{
+    position: fixed;
+		left: 0;
+		right: 0;
+
+}
+
+.top{
+  position: fixed;
+  top: 0;
+
+  background-color: #c0c0c0;
+  height: 6%;
+
+
+
+}
+
+.loginCare{
+      background-color: #009999;
+      border: none;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 8px;
+      color: white;
+      /*padding: 5px 15px;*/
+      margin-right: -10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.dropdown, .dropdown2, .dropdown3{
+    position: relative;
+    display: inline-block;
+    list-style-type:none;
+    margin: 0 30px 0 30px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.dropdown-content,.dropdown-content-second, .dropdown-content-third {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    font-family: Helvetica, Arial, sans-serif;
+
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content-second{
+    display: block;
+}
+
+.dropdown3:hover .dropdown-content-third{
+    display: block;
+}
+
+.upper-part{
+
+  top:35px;
+  position: fixed;
+  /*background: #ff99ff;*/
+
+  height: 42%;
+  background: #ccffff;
+
+}
+
+.floatLeft{
+  float: left;
+  /*width:55%;*/
+  margin: 10px 0 0 10px;
+  /*margin-right: 50px;*/
+}
+
+.floatLeft img{
+  margin: 0 0 0 20px;
+}
+
+.floatRight{
+
+  float:right;
+  width: 45%;
+
+}
+
+.signUp{
+    margin: 27px 50px 0 0;
+    padding: -20px;
+}
+
+.container{
+  padding: 30px;
+  margin: -20px 0 0 0;
+  color: white;
+  background-color: #0066cc;
+}
+
+.container h2{
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:14px;
+}
+
+.container label{
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  display:inline-block;
+  font-size:13;
+  font-style:normal;
+  width: 30%;
+}
+
+input[type=text], input[type=password]{
+
+  display:inline-block;
+  width: 65%;
+  padding: 2px;
+  font-size: 0.9em;
+
+
+}
+
+
+.lower-part{
+ bottom:92px;
+ position: fixed;
+
+ height: 38%;
+
+ background: #ccffff;
+
+}
+
+.lower-part h2{
+
+  text-align:center;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+
+}
+
+.photo-third img{
+
+  display: block;
+  margin: -35px auto;
+  padding: 20px;
+
+}
+
+.lower-part h3{
+
+  text-align:center;
+  font-size: 14px;
+  margin: 15px 0 0 0;
+
+}
+
+.lower-part p{
+  margin: -2px 0 0 0;
+  font-size: 11px;
+}
+
+.photo-third{
+  float:left;
+  width:33.33%;
+  /*margin-left: 1px;*/
+}
+
+.bottom{
+  bottom: 0;
+  background-color: #009999;
+  height: 16%;
+
+
+
+}
+
+.bottom-third{
+  float: left;
+  width: 33.33%;
+}
+.bottom-third ul{
+  float: left;
+  margin: 0 15px 0 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  list-style-type: none;
+}
+
+.bottom-third h5{
+  color: black;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin: 10px 0 0 30px;
+}
+
+.fa{
+  margin: 0 20px 0 0;
+}
